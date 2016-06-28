@@ -1,0 +1,56 @@
+Para crear uno se va a la carpeta y luego
+
+rails new "nombre" -d "gestor de base de datos"
+
+ex: rails new apptest -d postgresql
+
+to_s -> Converts values to strings
+to_i -> Converts values to integers
+.length-> longitud
+to_a -> Converts values to arrays.
+.sort -> ordena de menor a mayor (arrays)
+.max -> Value max in the array
+print -> imprime -> print poem
+poem[Toast("ventana emergente")= "mensaje"
+.reverse -> cambia y lo deja alréves
+poem.lines.to_a.reverse -> First, you turned the poem into a list using lines.to_a. The lines component decided the way the string should be split up, and then one of our "to" methods, to_a, converted those splits into an Array. (to_array.)
+.join -> une en un string
+.downcase -> imprime abajo hacía arriba
+.delete -> elimina lo que está en la variable
+books= {} -> crea un diccionario
+
+categorias del diccionario -> 
+    :splendid → a masterpiece.
+    :quite_good → enjoyed, sure, yes.
+    :mediocre → equal parts great and terrible.
+    :quite_not_good → notably bad.
+    :abysmal → steaming wreck.
+
+
+books.keys -> trae el titulo
+hash.new -> crea un hash vacio
+books.valu­es.each { |rate­| ratin­gs[rate] +=1 }-> //
+5.times { print "Odelay!" } -> imprime 5 veces Odelay
+Dir.entrie­s "/" -> muestra los directori
+Dir["/*.txt"] -> trae textos del directorio
+print File.­read("/com­ics.txt") -> lee y trae lo que hay adentro de todos los archivos llamados comics.txt
+Use FileUtils.cp('/comics.txt', '/Home/comics.txt') -> copia el archivo comics.txt en una nueva ruta
+ File.mtime("/Home/comics.txt")-> Cambios en el archivo
+File.mtime("/Home/comics.txt").hour -> cambios dado en hora
+
+funciones
+Popup.make {
+  h1 "My Links"
+  link "Go to Bing", "http://bing.com"
+}
+
+
+
+
+
+
+
+
+
+
+
